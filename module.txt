@@ -1,0 +1,6 @@
+//nodejs-Use module system to organize the code
+// there are three types in module :
+// 1) Core module(built-in module)
+// 2) Local module
+// 3) Third party module
+Welcome to codemind technolgyWelcome to codemind technolgyWelcome to codemind technolgyWelcome to codemind technolgyWelcome to codemind technolgyWelcome to codemind technolgyWelcome to codemind technolgy
