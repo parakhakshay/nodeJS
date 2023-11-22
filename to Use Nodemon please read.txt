@@ -1,0 +1,9 @@
+If you find error "Restricted" while excuting the nodemon <your fileName.js> 
+then follow steps:
+
+*open windows powershell as an adminstrator
+*now run this command " Get-ExecutionPolicy"
+if you got result as "Restricted" then follow third step
+* run this command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser" #this will current user script execution policy to RemoteSigned which means current user can run nodemon command without any restriction
+*to change it back to "Restricted" then run following command
+"Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser"
